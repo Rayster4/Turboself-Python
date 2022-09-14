@@ -1,16 +1,14 @@
-import platform
-import time
 from selenium import webdriver
 from bs4 import BeautifulSoup
 import sys
 import re
+import os
 
 class turboself():
     def __init__(self, username, password):
         self.username = username
         self.password = password
-        self.browser = webdriver.PhantomJS()
-        self.browser.set_window_size(1366, 768)
+        self.browser = webdriver.PhantomJS("drivers\phantomjs.exe")
 
     def purge(self, string : str):
         return string.replace("\n", "").replace(" ","")
