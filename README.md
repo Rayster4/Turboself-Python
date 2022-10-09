@@ -66,7 +66,7 @@ Follow the [example.py](https://github.com/Rayster4/Turboself-Python/blob/main/e
 # Informations :
 
 ## Contact
-Feel free to contact me throught the discord app : レイスター#0346
+Feel free to contact me throught the discord app : Rayster#0346
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
